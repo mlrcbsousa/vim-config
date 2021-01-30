@@ -4,8 +4,12 @@ Plug 'cormacrelf/vim-colors-github'
 
 call plug#end()
 
-set number
 syntax on
+set number
+set tabstop=4
+set ruler
+set smartindent
+set shiftwidth=4
 
 let g:github_colors_soft = 1
 
